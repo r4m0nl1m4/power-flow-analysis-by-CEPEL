@@ -1,0 +1,59 @@
+TITU
+Rede para simulação: Análise Computacional de Sistemas de Potência
+DCTE
+(Mn) ( Val) (Mn) ( Val) (Mn) ( Val) (Mn) ( Val) (Mn) ( Val) (Mn) ( Val) 
+BASE   100. DASE   100. TEPA    .01 EXST    .04 TETP     5. TBPA     5.
+TLPP     .1 TEPR    .01 QLST    .04 TLPR     1. TLPQ     2. TSBZ    .01
+TSBA     5. ASTP    .05 VSTP     5. TLVC   .001 TLTC   .001 TSFR  .1E-7
+ZMAX   500. TLPV     .5 VDVM   150. VDVN    50. TUDC   .001 TADC    .01
+PGER    30. TPST    .02 VFLD    70. ZMIN   .001 HIST    470 LFIT     10
+ACIT     30 LFCV      1 DCIT     10 VSIT     10 LPIT     30 LFLP     10
+PDIT     10 LCRT     30 LPRT     60 CSTP     5. ASDC     1.
+ICIT     30 DMAX      5 FDIV     2. ICMN    .05 VART     5. TSTP     32
+ICMV     .5 APAS    90. CPAR    70. VAVT     2. VAVF     5. VMVF    15.
+VPVT     2. VPVF     5. VPMF    10. VSVF    20. VINF     1. VSUP     1.
+TLSI     0. VPVF     5. VPMF    10. VSVF    20. VINF     1. VSUP     1.
+99999
+DBAR
+(Num)OETGb(   nome   )Gl( V)( A)( Pg)( Qg)( Qn)( Qm)(Bc  )( Pl)( Ql)( Sh)Are(Vf)M(1)(2)(3)(4)(5)(6)
+ 5263 L2 1             01029  0                                            11000                    
+ 8526 L  1             0                                                   11000                    
+ 8527 L  1             0                                                   11000                    
+ 8528 L  1             0                                               5.  11000                    
+ 8529 L  1             0                                                   11000                    
+ 8530 L1 1             01.03      20       -10   10                        11000                    
+ 8532 L  2             1                                   11.8 6.69       11000                    
+ 8533 L  2             1                                     7. 3.78 4.07  11000                    
+ 8534 L  2             1                                   6.19 2.64  1.2  11000                    
+ 8535 L  2             1                                  14.21 8.05 4.84  11000                    
+ 8536 L  2             1                                   10.0 2.51 3.06  11000
+ 8540 L1 1             1         5.0      -2.0  2.0                        11000   
+99999
+DLIN
+(De )d O d(Pa )NcEP ( R% )( X% )(Mvar)(Tap)(Tmn)(Tmx)(Phs)(Bc  )(Cn)(Ce)Ns(Cq)(1)(2)(3)(4)(5)(6)
+ 5263      8526 1    34.21 28.92  .359                            29  34    29                   
+ 5263      8530 1    10.82 26.25  .458                            60  72    60                   
+ 5263      8532 1          126.4       .975                        5   6     5                   
+ 5263      8532 2          124.8       .975                        5   6     5                   
+ 5263      8532 3           125.       .975                        5   6     5                   
+ 8526      8527 1    10.38 25.18  .441                            60  72    60                   
+ 8526      8533 1           74.9       .975                       10  12    10                   
+ 8527      8534 1           80.7      .9375  .85 1.05      -8534  20  2417  20                                  
+ 8528      8529 1           86.6      .9625  .85 1.05      -8536  20  2417  20
+ 8528      8535 1          59.25        .95  .85 1.05      -8535  20  2017  20
+ 8528      8540 1    1.082 2.625  .046                            60  72               
+ 8529      8536 1           86.6      .9625  .85 1.05      -8536  20  2417  20                   
+ 8530      8528 1    73.53 62.17  .772                            29  34    29
+ 8530      8528 2    73.53 62.17  .772                            29  34    29 
+99999
+DGLT
+(G (Vmn) (Vmx) (Vmne (Vmxe
+ 0   .95  1.03   .95  1.03
+ 1   .93  1.05   .93  1.05
+99999
+DGBT
+(G ( kV)
+ 1   69.
+ 2  13.8
+99999
+FIM

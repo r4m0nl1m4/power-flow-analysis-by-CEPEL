@@ -1,0 +1,72 @@
+!      ---- Modo de Desenho da Barra ---
+BU
+!      ---- Tamanho da Fonte das Legendas ---
+F 1
+!      ---- Cores (Fundo - Identificador - Numero - Valor - Grid - Fluxo Ativo - Fluxo Reativo)---
+RF 255 255 255
+RI 128 0 128
+RN 128 0 128
+RV 0 0 255
+RG 0 0 0
+RA 0 0 255
+RR 255 0 0
+!      ---- Grupos Base de Tensão ----
+!Ten  lar  R   G   B ID
+!    ---- Componentes ----
+!Numero Tipo Rot Hac Px Py Cor sl SubTp ch1 ch2 ch3 ch4 Descrip
+C  2  1 257 0  -1024   -448  0  0 -  1  0  0  0 0
+C  3  1 257 0  -1024   -624  0  0 -  2  0  0  0 0
+C  4  1 513 0   -832   -624  0  0 - 20  0  0  0 0
+C  5  1 769 0   -832   -448  0  0 - 10  0  0  0 0
+C  6  1 513 0   -544   -400  0  0 - 30  0  0  0 0
+C 12  9 2 0   -736   -496  0  0 -  1 10 20  0 0
+C 13  9 2 0   -704   -496  0  0 -  2 10 20  0 0
+C 14  4 1 1  -1088   -608  0  0 -  1  2  0  0 0
+C 15  4 1 0  -1088   -432  0  0 -  1  1  0  0 0
+C 16  5 0 0   -496   -320  0  0 -  1 30  0  0 0
+!      ---- Linhas ----
+!Numero Tipo hac sl De Para ch1 nsg segmentos
+L 8 14 0 0   3   4  1  1 2 
+L 9 14 0 0   2   5  1  1 3 
+L10 14 0 0   5   6  1  1 4 
+L11 14 0 0   5   6  2  1 5 
+!     ---- Ligacoes ----
+!Numero Flags cor Inic Coni Fin Conf Linhas nqb quebras
+U 2 0  0   3   2   4   2   8   0 
+U 3 0  0   2   2   5   2   9   0 
+U 4 0  0   5   6   6   3  10   0 
+U 5 0  0   5   8   6   5  11   0 
+U10 0  0  14   1   3   2  -1   0 
+U11 0  0  15   1   2   2  -1   0 
+U 8 0  0  13   2   4   2  -1   1    -704   -608
+U 6 0  0  12   2   4   4  -1   1    -736   -576
+U 9 0  0  13   1   5   4  -1   1    -704   -400
+U 7 0  0  12   1   5   2  -1   1    -736   -432
+U12 0  0  16   1   6   3  -1   1    -496   -368
+!    ---- Posição de Legenda de Componentes ----
+!NumCompo Label Rot Px Py
+X   2  2  1   -20.63    18.32
+X   3  2  1   -20.63    18.32
+X   4  2  1   -20.63    18.32
+X   5  2  1   -20.63    18.32
+X   6  2  1   -20.63    18.32
+X  12  0  2   -49.63     2.32
+X  16  1  0    15.63    18.32
+!     ---- Posição de Legenda de Ligacoes ----
+!Lado NumLig Label Px Py
+YI   4  1    -1.01    -4.10
+YI   4  2    -0.89     9.67
+YF   4  1     1.61    -3.24
+YF   4  2     3.56     9.67
+YI   5  1    28.68    -5.12
+YI   5  2    29.23     9.94
+YF   5  1   -29.80    -4.69
+YF   5  2   -28.28    10.37
+YF   8  1    75.15    -3.72
+YF   8  2    72.45     9.19
+YF   6  1     0.54    -3.68
+YF   6  2     1.97     8.65
+YF   9  1    72.02    -3.08
+YF   9  2    71.71     9.83
+YF   7  1    -0.15    -4.43
+YF   7  2     0.13     9.34
